@@ -26,17 +26,33 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,span,div{
 .half_width{
     position: absolute;
     top: 0%;
-    right: -3%;
+    right: -10%;
     width: 40%;
-    z-index: -999;
+    z-index: -99;
+}
+
+.bmw {
+    position: absolute;
+    top: 43%;
+    right: -5%;
 }
 
 .mstart{
-    margin-left: 7rem !important;
+    margin-left: 5rem !important;
+}
+
+.ban_sec .full_line {
+    position: absolute;
+    top: 42%;
+    width: 35.5%;
+    height: 3%;
+    display: block;
+    background-color: #21E6B1;
+    z-index: -7;
 }
 .nav-link{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
 }
 .ban_sec h1{
     font-size: 55px;
@@ -78,3 +94,37 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,span,div{
 .top_banner{
     position: relative;
 }
+
+/* ---------------------------- Service --------------------------  */
+.full_ser .card1{
+    display: flex;
+}
+.common_head h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.common_head p{
+    font-size: 25px;
+    font-weight: 300;
+}
+.car_img img:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    transition: all linear .3s;
+}
+.butto a{
+    padding: 15px 25px;
+    background-color: #21E6B1;
+    color: white;
+    border: 2px solid #21E6B1;
+    border-radius: 50px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    transition: all linear .3s;
+}
+.butto a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #21E6B1;
+    transition: all linear .3s;
+}
+/* ---------------------------- Service --------------------------  */
